@@ -11,13 +11,14 @@ Personal website: https://www.wangzhe95.net
 ### v1.2 (2021-04-20)
 1. Now you can customize grid quality through program.
 2. More stable input file reader was introduced.
+3. Running on Linux platform was tested.
 
 ### v1.1 (2021-04-20)
 1. Program will not be terminated by error inputting when specify the map range.
 3. Bug fix.
 
 ## Platform
-This program is working normally on macOS 11.2.3 on MacBook Air (M1, 2020).
+This program is working normally on macOS 11.2.3 on MacBook Air (M1, 2020) and Redhat EL 8.3 with Intel Core i7-10700.
 
 ## How to use
 NOTICE: This program is only for Gaussian input.
