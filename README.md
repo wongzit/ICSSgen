@@ -87,3 +87,7 @@ Bq      -10.0      -6.4      1.0
 Bq      -10.0      -6.2      1.0
 ```
 
+## From author
+If you found any bugs, please contact me. (wongzit@yahoo.co.jp)
+
+Hope you enjoy this program!
