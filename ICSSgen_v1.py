@@ -18,7 +18,7 @@ print("              Hiroshima University, Japan")
 print("")
 print("========================================================")
 print("Press Ctrl+c to exit the program.")
-print("The default intercept is 0.2 angstrom, the value can be modified at line xx.\n")
+print("The default intercept is 0.2 angstrom, the value can be modified at line 113.\n")
 
 # Read original input file
 fileName = input("Please specify the original input file:\n")
