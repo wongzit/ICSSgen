@@ -163,6 +163,6 @@ else:
     file.close()
 
 # Program termination
-print("\n==============================")
+print("==============================")
 print("Normal termination of ICSSgen.")
 print("==============================\n")
