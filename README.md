@@ -13,7 +13,7 @@ Personal website: https://www.wangzhe95.net
 2. Bug fix.
 
 ## Platform
-This program is working normally on macOS 11.2.3 on MacBook Air (M1, 2020) and Redhat Enterprise Linux 8.3.
+This program is working normally on macOS 11.2.3 on MacBook Air (M1, 2020).
 
 ## How to use
 NOTICE: This program is only for Gaussian input.
@@ -93,7 +93,7 @@ Bq      -3.0      -3.0      1.0
 Bq      -3.0      -2.8      1.0
 Bq      -3.0      -2.6      1.0
 ```
-2. The program may not work normally on Windows platform due to file path problem. Further update for Windows is planned.
+2. The program may not work normally on Windows and Linux platform due to file path problem. Further update is planned.
 
 ## From author
 If you found any bugs, please contact me. (wongzit@yahoo.co.jp)
