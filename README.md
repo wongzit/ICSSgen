@@ -98,7 +98,7 @@ Bq      -3.0      -3.0      1.0
 Bq      -3.0      -2.8      1.0
 Bq      -3.0      -2.6      1.0
 ```
-2. The program may not work normally on Windows and Linux platform due to file path problem. Further update is planned.
+2. The program may not work normally on Windows due to file path problem. Further update is planned.
 
 ## From author
 If you found any bugs, please contact me. (wongzit@yahoo.co.jp)
