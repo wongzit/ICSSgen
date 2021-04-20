@@ -12,6 +12,9 @@ Personal website: https://www.wangzhe95.net
 
 2. Bug fix.
 
+## Platform
+This program is working normally on macOS 11.2.3 on MacBook Air (M1, 2020) and Redhat Enterprise Linux 8.3.
+
 ## How to use
 NOTICE: This program is only for Gaussian input.
 1. Prepare the input file including calculation method, title, charge and spin multiplicity, and Cartesian coordiante.
@@ -79,7 +82,7 @@ Normal termination of ICSSgen.
 ```
 
 ## Problem
-~~Once you get the input file for ICSS calculation, please open it by text editor before submit to Gaussian calculation. Sometimes the unnecessary line-break in original input file may be remain to the ICSS input file, these line-break will cause error during calculation.~~
+1. ~~Once you get the input file for ICSS calculation, please open it by text editor before submit to Gaussian calculation. Sometimes the unnecessary line-break in original input file may be remain to the ICSS input file, these line-break will cause error during calculation.~~
 This problem has been fixed but I still recommand you to check the input file befor submitting to Gaussian.
 ```
  H                  2.38136700    0.70385800    0.00000700
@@ -90,6 +93,7 @@ Bq      -3.0      -3.0      1.0
 Bq      -3.0      -2.8      1.0
 Bq      -3.0      -2.6      1.0
 ```
+2. The program may not work normally on Windows platform due to file path problem. Further update for Windows is planned.
 
 ## From author
 If you found any bugs, please contact me. (wongzit@yahoo.co.jp)
