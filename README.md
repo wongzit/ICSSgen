@@ -7,7 +7,7 @@ Author: Zhe Wang
 
 Personal website: https://www.wangzhe95.net
 
-## Update history v1.1
+## Update history v1.1 (2021-04-20)
 1. Program will not be terminated by error inputting when specify the map range.
 
 2. Bug fix.
