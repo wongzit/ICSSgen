@@ -59,16 +59,15 @@ Please input the altitude over the plane (in angstrom):
 6. Range specification. Please input two numbers (float is okay) separated by space, eg. -10 10, the range will be set as [-10,10].
 ```
 Please specify the range of X axis (in angstrom, eg. -10 10):
--10 10
+-3 3
 
 Please specify the range of Y axis (in angstrom, eg. -8 8):
--6.6 5.6
+-3.0 3.0
 ```
 
 7. New input file name with "ICSS_plane_altitude.gjf" would be generated. Now you can use this input file for Gaussian calculation. Enjoy!
 ```
-2D-ICSS(XY,1.0) map in [X: -10.0 to 10.0, Y: -6.6 to 5.6].
-
+2D-ICSS(XY,1.0) map in [X: -3.0 to 3.0, Y: -3.0 to 3.0].
 
 ==============================
 Normal termination of ICSSgen.
@@ -81,10 +80,10 @@ Once you get the input file for ICSS calculation, please open it by text editor 
  H                  2.38136700    0.70385800    0.00000700
  H                  0.58095200    2.41426700    0.00001800
  H                 -1.80027600    1.71035300   -0.00006300
-                      # <--- this is unnecessary line-break
-Bq      -10.0      -6.6      1.0
-Bq      -10.0      -6.4      1.0
-Bq      -10.0      -6.2      1.0
+                                                                 # <--- this is unnecessary line-break
+Bq      -3.0      -3.0      1.0
+Bq      -3.0      -2.8      1.0
+Bq      -3.0      -2.6      1.0
 ```
 
 ## From author
