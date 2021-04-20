@@ -16,7 +16,7 @@ NOTICE: This program is only for Gaussian input.
 ```
 %nprocshared=8
 %mem=8gb
-#p rb3lyp/6-31g(d) nmr
+#p rb3lyp/6-31+g(d) nmr
 
 benzene//ICSS_on_XY
 
