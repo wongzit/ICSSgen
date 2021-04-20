@@ -1,4 +1,4 @@
-# ICSSgen
+# ICSSgen v1.1
 Input file generator for ICSS (2D-NICS) calculation.
 
 Last update: 2021-04-20
@@ -7,6 +7,10 @@ Author: Zhe Wang
 
 Personal website: https://www.wangzhe95.net
 
+## Update history v1.1
+1. Program will not be terminated by error inputting when specify the map range.
+
+2. Bug fix.
 
 ## How to use
 NOTICE: This program is only for Gaussian input.
@@ -75,7 +79,8 @@ Normal termination of ICSSgen.
 ```
 
 ## Problem
-Once you get the input file for ICSS calculation, please open it by text editor before submit to Gaussian calculation. Sometimes the unnecessary line-break in original input file may be remain to the ICSS input file, these line-break will cause error during calculation.
+~~Once you get the input file for ICSS calculation, please open it by text editor before submit to Gaussian calculation. Sometimes the unnecessary line-break in original input file may be remain to the ICSS input file, these line-break will cause error during calculation.~~
+This problem has been fixed but I still recommand you to check the input file befor submitting to Gaussian.
 ```
  H                  2.38136700    0.70385800    0.00000700
  H                  0.58095200    2.41426700    0.00001800
