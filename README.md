@@ -1,13 +1,17 @@
-# ICSSgen v1.2
+# ICSSgen v1.2.1
 Input file generator for ICSS (2D-NICS) calculation.
 
-Last update: 2021-04-20
+Last update: 2021-04-21
 
 Author: Zhe Wang
 
 Personal website: https://www.wangzhe95.net
 
-## Update history 
+## Update history
+### v1.2.1 (2021-04-21)
+1. Now executable file for all platfrom is available.
+2. Source code is deleted.
+
 ### v1.2 (2021-04-20)
 1. Now you can customize grid quality through program.
 2. More stable input file reader was introduced.
@@ -98,7 +102,6 @@ Bq      -3.0      -3.0      1.0
 Bq      -3.0      -2.8      1.0
 Bq      -3.0      -2.6      1.0
 ```
-2. The program may not work normally on Windows due to file path problem. Further update is planned.
 
 ## From author
 If you found any bugs, please contact me (wongzit@yahoo.co.jp). **Hope you enjoy this program!**
