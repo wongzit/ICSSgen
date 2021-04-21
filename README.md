@@ -22,7 +22,7 @@ Personal website: https://www.wangzhe95.net
 3. Bug fix.
 
 ## Platform
-This program is working normally on macOS 11.2.3 on MacBook Air (M1, 2020) and Redhat EL 8.3 with Intel Core i7-10700.
+This program should work normally on macOS/Linux/Windows platfrom.
 
 ## How to use
 NOTICE: This program is only for Gaussian input.
@@ -102,6 +102,7 @@ Bq      -3.0      -3.0      1.0
 Bq      -3.0      -2.8      1.0
 Bq      -3.0      -2.6      1.0
 ```
+2. The program has been tested on macOS 11.2.3 (MacBook Air, M1 chip), Redhat EL 8.3 (physical mechaine, Intel Core i7-10700), CentOS 8.3 (VMware, Intel Core i7-10700), Windows 10 Education (physical mechaine, Intel Core i7-10700) and Windows 10 ARM (Parallels Desktop 16, M1 chip).
 
 ## From author
 If you found any bugs, please contact me (wongzit@yahoo.co.jp). **Hope you enjoy this program!**
