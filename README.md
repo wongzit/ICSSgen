@@ -31,7 +31,7 @@ Python source code is provided, if your computer already installed with Python 3
 
 `python3 ICSSgen_v1_31_source.py`
 
-Executable files for macOS/Linux/Windows are in **packages** folder.
+Executable files for macOS/Linux/Windows are in **packaged** folder.
 
 **NOTICE:** Python 3.7 or newer is recommended, ICSSgen may not work normally under Python 2.
 
