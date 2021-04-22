@@ -46,6 +46,7 @@ Executable file **ICSSgen_v1_31_win.exe** has been tested on Windows 10 Educatio
 **NOTICE:** ICSSgen only generates input file for Gaussian. More details in program manual.
 
 1. Prepare the input file including calculation route lines, title, charge and spin multiplicity, and Cartesian coordinate.
+
 **EXAMPLE: Input file of benzene on XY plane**
 ```
 %nprocshared=8
