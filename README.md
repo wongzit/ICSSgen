@@ -1,16 +1,17 @@
-# ICSSgen v1.2.1
+# ICSSgen v1.3.1
 Input file generator for ICSS (2D-NICS) calculation.
-
-Last update: 2021-04-21
-
+Last update: 2021-04-22
 Author: Zhe Wang
 
-Personal website: https://www.wangzhe95.net
-
 ## Update history
+### v1.3.1 (2021-04-22)
+1. Executable program file updated, source code is provided.
+2. Now a quote will be displayed before termination.
+3. Document is updated.
+
 ### v1.2.1 (2021-04-21)
-1. Now executable file for all platfrom is available.
-2. Source code is deleted.
+1. Now executable file for all platform is available.
+2. ~~Source code is deleted.~~
 
 ### v1.2 (2021-04-20)
 1. Now you can customize grid quality through program.
@@ -22,19 +23,35 @@ Personal website: https://www.wangzhe95.net
 3. Bug fix.
 
 ## Platform
-This program should work normally on macOS/Linux/Windows platfrom.
+### For all platform
+Python code is provided, if your computer already installed with Python 3, you can run ICSSgen with:
+`python3 ICSSgen_v1_31_source.py`
+**NOTICE:** Python 3.7 or newer is recommended, ICSSgen may not work normally under Python 2.
+
+### For macOS
+Executable file **ICSSgen_v1_31_catalina** has been tested on macOS Catalina 10.15.7 and Big Sur 11.2.3 on Mac with Intel-CPU. If you are using Mac with M1 chip, running ICSSgen with **ICSSgen_v1_31_m1** is recommended.
+
+### For Linux
+Before running for the first time, you may need to add permission by:
+`chmod +x ./path_to_ICSSgen/ICSSgen_v1_31_linux`
+Add following command to environmental variables (for bash):
+`alias icssgen=./path_to_ICSS/ICSSgen_v1_31_linux`
+and you can run ICSSgen by `icssgen`.
+
+### For Microsoft Windows
+Executable file **ICSSgen_v1_31_win.exe** has been tested on Windows 10 Education (x64) with Intel Core i7-10700. Double click to run it.
 
 ## How to use
-NOTICE: This program is only for Gaussian input.
-1. Prepare the input file including calculation method, title, charge and spin multiplicity, and Cartesian coordiante.
+**NOTICE:** ICSSgen only generates input file for Gaussian. More details in program manual.
 
+1. Prepare the input file including calculation route lines, title, charge and spin multiplicity, and Cartesian coordinate.
 **EXAMPLE: Input file of benzene on XY plane**
 ```
 %nprocshared=8
-%mem=8gb
-#p rb3lyp/6-31+g(d) nmr
+%mem=10GB
+#p nmr=giao rb3lyp/6-31g(d)
 
-benzene//ICSS_on_XY
+Benzene_opt
 
 0 1
  C                 -1.33923600   -0.39585300    0.00000500
@@ -52,43 +69,45 @@ benzene//ICSS_on_XY
 
 ```
 
-2. Run ICSSgen_v1.py, the program is coded under Python 3.9.
+2. Run ICSSgen.
 
-3. Drag input file to the program, and press Enter.
+3. Drag the input file to the program, and press Enter. 
 ```
-Please specify the original input file:
-/Users/wangzhe/Desktop/benzene.gjf 
+Please specify the original input file path:
+(eg.: /ICSSgen/example/benzene.gjf)
+(user input): /Users/wangzhe/Desktop/ICSSgen/example/benzene.gjf 
 ```
 
 4. Specify the plane for ICSS calculation, please input "xy", "xz" or "yz" (Not case-sensitive).
 ```
 Please specify the plane for ICSS map (XY, XZ, YZ):
-xY
+(user input): xy
 ```
 
-5. Specify the altitude for ICSS calulation, for on-plane calculation, please input 0. The value is in angstrom.
+5. Specify the altitude  for ICSS calculation, for on-plane calculation, please input 0. The value is in angstrom.
 ```
 Please input the altitude over the plane (in angstrom):
-1
+(user input): 1
 ```
 
 6. Range specification. Please input two numbers (float is okay) separated by space, eg. -10 10, the range will be set as [-10,10].
 ```
 Please specify the range of X axis (in angstrom, eg. -10 10):
--3 3
+(user input): -5 5
 
 Please specify the range of Y axis (in angstrom, eg. -8 8):
--3.0 3.0
+(user input): -5.0 5.0
 ```
 
-7. New input file name with "ICSS_plane_altitude.gjf" would be generated. Now you can use this input file for Gaussian calculation. Enjoy!
+7. Grid quality: smaller value will give you a smoother ICSS map but more expensive calculation cost is needed. The default value is 0.2.
 ```
-2D-ICSS(XY,1.0) map in [X: -3.0 to 3.0, Y: -3.0 to 3.0].
+Please specify the grid quality (value smaller than 0.25 is recommanded):
+(press Enter to use default value 0.2)
+(user input): 0.2
+ICSSgen will use grid quality of 0.2.
+```
 
-==============================
-Normal termination of ICSSgen.
-==============================
-```
+8. New input file named with **ICSS_plane_altitude.gjf** would be generated.  You can submit this input file for Gaussian calculation. Enjoy!
 
 ## Problem
 1. ~~Once you get the input file for ICSS calculation, please open it by text editor before submit to Gaussian calculation. Sometimes the unnecessary line-break in original input file may be remain to the ICSS input file, these line-break will cause error during calculation.~~
@@ -102,7 +121,9 @@ Bq      -3.0      -3.0      1.0
 Bq      -3.0      -2.8      1.0
 Bq      -3.0      -2.6      1.0
 ```
-2. The program has been tested on macOS 11.2.3 (MacBook Air, M1 chip), Redhat EL 8.3 (physical mechaine, Intel Core i7-10700), CentOS 8.3 (VMware, Intel Core i7-10700), Windows 10 Education (physical mechaine, Intel Core i7-10700) and Windows 10 ARM (Parallels Desktop 16, M1 chip).
+
 
 ## From author
-If you found any bugs, please contact me (wongzit@yahoo.co.jp). **Hope you enjoy this program!**
+If you found any bugs, please contact me (wongzit@yahoo.co.jp).
+About more information about me, please check my [personal website](https://www.wangzhe95.net).
+ **Hope you enjoy this program!**
