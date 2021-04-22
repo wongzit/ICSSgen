@@ -127,5 +127,7 @@ Bq      -3.0      -2.6      1.0
 
 ## From author
 If you found any bugs, please contact me (wongzit@yahoo.co.jp).
-About more information about me, please check my [personal website](https://www.wangzhe95.net).
+
+More information about me, please check my [personal website](https://www.wangzhe95.net).
+
  **Hope you enjoy this program!**
