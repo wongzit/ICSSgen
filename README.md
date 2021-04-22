@@ -27,7 +27,7 @@ Author: Zhe Wang
 
 ## Platform
 ### For all platform
-Python code is provided, if your computer already installed with Python 3, you can run ICSSgen with:
+Python source code is provided, if your computer already installed with Python 3, you can run ICSSgen with:
 `python3 ICSSgen_v1_31_source.py`
 **NOTICE:** Python 3.7 or newer is recommended, ICSSgen may not work normally under Python 2.
 
