@@ -34,6 +34,7 @@ Executable file **ICSSgen_v1_31_catalina** has been tested on macOS Catalina 10.
 ### For Linux
 Before running for the first time, you may need to add permission by:
 `chmod +x ./path_to_ICSSgen/ICSSgen_v1_31_linux`
+
 Add following command to environmental variables (for bash):
 `alias icssgen=./path_to_ICSS/ICSSgen_v1_31_linux`
 and you can run ICSSgen by `icssgen`.
