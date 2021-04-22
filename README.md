@@ -1,4 +1,5 @@
 # ICSSgen v1.3.1
+![icon_full](https://user-images.githubusercontent.com/41381763/115641810-cb666d80-a354-11eb-8a14-ad0d61f1f7b0.png)
 Input file generator for ICSS (2D-NICS) calculation.
 Last update: 2021-04-22
 Author: Zhe Wang
