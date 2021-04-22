@@ -114,16 +114,25 @@ ICSSgen will use grid quality of 0.2.
 ## Problem
 1. ~~Once you get the input file for ICSS calculation, please open it by text editor before submit to Gaussian calculation. Sometimes the unnecessary line-break in original input file may be remain to the ICSS input file, these line-break will cause error during calculation.~~
 This problem has been fixed but I still recommand you to check the input file befor submitting to Gaussian.
+
+**Unnecessary line-break**
 ```
  H                  2.38136700    0.70385800    0.00000700
  H                  0.58095200    2.41426700    0.00001800
  H                 -1.80027600    1.71035300   -0.00006300
                                                                  # <--- this is unnecessary line-break
-Bq      -3.0      -3.0      1.0
-Bq      -3.0      -2.8      1.0
-Bq      -3.0      -2.6      1.0
+ Bq      -3.0      -3.0      1.0
+ Bq      -3.0      -2.8      1.0
+ Bq      -3.0      -2.6      1.0
 ```
-
+**No necessary line-break**
+```
+ H                  2.38136700    0.70385800    0.00000700
+ H                  0.58095200    2.41426700    0.00001800
+ H                 -1.80027600    1.71035300   -0.00006300 Bq      -3.0      -3.0      1.0     # <--- a line-break needed
+ Bq      -3.0      -2.8      1.0
+ Bq      -3.0      -2.6      1.0
+```
 
 ## From author
 If you found any bugs, please contact me (wongzit@yahoo.co.jp).
