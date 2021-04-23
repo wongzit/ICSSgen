@@ -1,12 +1,22 @@
-# ICSSgen v1.3.1
+# ICSSgen v1.4
 ![icon_full](https://user-images.githubusercontent.com/41381763/115641810-cb666d80-a354-11eb-8a14-ad0d61f1f7b0.png)
 Input file generator for ICSS (2D-NICS) calculation.
+**ICSSgen homepage** https://www.wangzhe95.net/program-icssgen
 
-Last update: 2021-04-22
+Last update: 2021-04-24
 
 Author: Zhe Wang
 
 ## Update history
+### v1.4 (2021-04-24)
+1. Bug fix: Maximum value of ICSS map range (not displayed in older version)
+2. Removed quotes module in Windows version.
+3. Executable file for Mac could running on both Intel and Apple M1 chip. (macOS 10.15 or newer)
+4. Negative grid quality is allowed.
+5. Bug of "0" grid value is fixed.
+6. Documents updated.
+7. Now all executable files are packaged in *execufiles.zip*.
+
 ### v1.3.1 (2021-04-22)
 1. Executable program file updated, source code is provided.
 2. Now a quote will be displayed before termination.
@@ -27,27 +37,27 @@ Author: Zhe Wang
 
 ## Platform
 ### For all platform
-Python source code is provided, if your computer already installed with Python 3, you can run ICSSgen with:
+Python source code is provided, if your computer already installed Python IDE, you can run ICSSgen with:
 
-`python3 ICSSgen_v1_31_source.py`
+`python3 ICSSgen_v14_source.py`
 
-Executable files for macOS/Linux/Windows are in **packaged** folder.
+Executable files for macOS/Linux/Windows are in **execufiles.zip**.
 
 **NOTICE:** Python 3.7 or newer is recommended, ICSSgen may not work normally under Python 2.
 
 ### For macOS
-Executable file **ICSSgen_v1_31_catalina** has been tested on macOS Catalina 10.15.7 and Big Sur 11.2.3 on Mac with Intel-CPU. If you are using Mac with M1 chip, running ICSSgen with **ICSSgen_v1_31_m1** is recommended.
+Executable file **ICSSgen_v14_mac** has been tested on macOS Catalina 10.15.7 (Intel Mac) and Big Sur 11.2.3 (Intel/M1 Mac).
 
 ### For Linux
 Before running for the first time, you may need to add permission by:
-`chmod +x ./path_to_ICSSgen/ICSSgen_v1_31_linux`
+`chmod +x ./path_to_ICSSgen/ICSSgen_v14_linux`
 
 Add following command to environmental variables (for bash):
-`alias icssgen=./path_to_ICSS/ICSSgen_v1_31_linux`
+`alias icssgen=./path_to_ICSS/ICSSgen_v14_linux`
 and you can run ICSSgen by `icssgen`.
 
 ### For Microsoft Windows
-Executable file **ICSSgen_v1_31_win.exe** has been tested on Windows 10 Education (x64) with Intel Core i7-10700. Double click to run it.
+Executable file **ICSSgen_v14_win.exe** has been tested on Windows 10 Education (x64) with Intel Core i7-10700. Double click to run it.
 
 ## How to use
 **NOTICE:** ICSSgen only generates input file for Gaussian. More details in program manual.
