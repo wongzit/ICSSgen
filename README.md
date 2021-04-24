@@ -3,7 +3,8 @@
 Input file generator for ICSS (2D-NICS) calculation.
 **ICSSgen homepage** https://www.wangzhe95.net/program-icssgen
 
-Last update: 2021-04-24
+First released at 2021-04-19
+Last updated at 2021-04-24
 
 Author: Zhe Wang
 
@@ -53,7 +54,7 @@ Before running for the first time, you may need to add permission by:
 `chmod +x ./path_to_ICSSgen/ICSSgen_v14_linux`
 
 Add following command to environmental variables (for bash):
-`alias icssgen=./path_to_ICSS/ICSSgen_v14_linux`
+`alias icssgen=./path_to_ICSSgen/ICSSgen_v14_linux`
 and you can run ICSSgen by `icssgen`.
 
 ### For Microsoft Windows
