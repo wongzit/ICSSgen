@@ -1,15 +1,19 @@
-# ICSSgen v1.4
-![icon_full](https://user-images.githubusercontent.com/41381763/115641810-cb666d80-a354-11eb-8a14-ad0d61f1f7b0.png)
+# ICSSgen v2.0
+![icon_full](https://user-images.githubusercontent.com/41381763/115641810-cb666d80-a354-11eb-8a14-ad0d61f1f7b0.png){width=50%}
 Input file generator for ICSS (2D-NICS) calculation.
 
 **ICSSgen homepage** https://www.wangzhe95.net/program-icssgen
 
 First released at 2021-04-19
-Last updated at 2021-04-24
+Last updated at 2021-05-11
 
 Author: Zhe Wang
 
 ## Update history
+### v2.0 (2021-05-11)
+1. Quote add-in is removed.
+2. For version 2.0, source code is uploaded. Executable files would be added soon.
+
 ### v1.4 (2021-04-24)
 1. Bug fix: Maximum value of ICSS map range (not displayed in older version)
 2. Removed quotes module in Windows version.
