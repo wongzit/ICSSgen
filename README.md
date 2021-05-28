@@ -15,7 +15,7 @@ ORCiD: [0000-0002-9996-586X](https://orcid.org/0000-0002-9996-586X)
 
 ## Statement of need
 2D isochemical shielding surface (2D-ICSS) maps, also known as 2D-NICS (nuclear independent
-chemical shift) maps, are useful tools for investigating the aromaticity of cyclic moleculs.
+chemical shift) maps, are useful tools for investigating the aromaticity of cyclic molecules.
 A large number of ghost atoms, in addition to the target molecules, must be included in the
 input file for 2D-ICSS calculations. After completing the calculations, the magnetic shielding
 tensors of all ghost atoms must be extracted from the output files. This process is a huge and
